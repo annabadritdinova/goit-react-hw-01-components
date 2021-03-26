@@ -1,0 +1,21 @@
+.avatar {
+  margin-right: 15px;
+}
+  
+.status {
+  display: inline-block;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+  
+.online {
+  composes: status;
+  background-color: green;
+}
+  
+.offline {
+  composes: status;
+  background-color: red;
+}

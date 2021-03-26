@@ -1,0 +1,24 @@
+.transactionHistory {
+  text-align: center;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  border-radius: 5px;
+
+}
+  
+.item {
+  padding: 20px;
+  width: 200px;
+  border: 2px solid grey;
+}
+  
+.tableHead {
+  background-color: #00bcd5;
+  color: white;
+}
+  
+.row:nth-child(2n) {
+  background-color: #ecf1f4;
+}
